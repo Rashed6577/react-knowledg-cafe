@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/x53V14h/1.jpg",
+      "title": "The Art of Programming",
+      "author": "John Smith",
+      "author_img": "https://i.ibb.co/y5bdjqm/boy1.png",
+      "posted_date": "2023-09-12",
+      "reading_time": 45,
+      "hashtags": ["programming", "coding", "technology"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/0Z57kjM/2.png",
+      "title": "Cooking Made Easy",
+      "author": "Alice Johnson",
+      "author_img": "https://i.ibb.co/85gf8Jw/boy2.jpg",
+      "posted_date": "2023-09-11",
+      "reading_time": 30,
+      "hashtags": ["cooking", "recipes", "food"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/qYZ4nbH/3.png",
+      "title": "Travel Adventures",
+      "author": "David Brown",
+      "author_img": "https://i.ibb.co/X3gwKkb/girl1.jpg",
+      "posted_date": "2023-09-10",
+      "reading_time": 60,
+      "hashtags": ["travel", "adventures", "explore"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/T1j42TN/4.jpg",
+      "title": "Fitness Revolution",
+      "author": "Emily Davis",
+      "author_img": "https://i.ibb.co/Htp2mJq/girl2.jpg",
+      "posted_date": "2023-09-09",
+      "reading_time": 40,
+      "hashtags": ["fitness", "exercise", "health"]
+    }
+  ]
+  
