@@ -15,23 +15,24 @@ function App() {
     setBookmarks(newBookmarks);
   }
 
-  const handelMarkAsRead = time => {
-    console.log(time)
+  const handelMarkAsRead = (time, id) => {
     const newTime = readingTime + time;
     setReadingTime(newTime);
+    const remaining = bookmarks.filter(bookmark => bookmark.id !== id);
+    setBookmarks(remaining);
   }
 
   return (
     <>
       <Header></Header>
       <div className='md:flex container mx-auto py-5 px-10'>
-        <Blogs 
-        handelBookmarks={handelBookmarks}
-        handelMarkAsRead={handelMarkAsRead}
+        <Blogs
+          handelBookmarks={handelBookmarks}
+          handelMarkAsRead={handelMarkAsRead}
         ></Blogs>
-        <Bookmarks 
-        bookmarks={bookmarks}
-        readingTime={readingTime}
+        <Bookmarks
+          bookmarks={bookmarks}
+          readingTime={readingTime}
         ></Bookmarks>
       </div>
     </>
